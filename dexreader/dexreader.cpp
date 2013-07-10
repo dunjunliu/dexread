@@ -14,7 +14,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 	Cdex dex(_T("E:\\code\\c\\dexreader\\classes.dex"));
 	dex.showClassDefs();
-	/*if(argc ==2)
+	if(argc ==2)
 	{
 		Cdex dex(argv[1]);
 		dex.showStringIds();  //ÏÔÊ¾dexÖÐ×Ö·û´®±í
@@ -24,7 +24,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	}else
 	{
 		usage();
-	}*/
+	}
 	return 0;
 }
 
